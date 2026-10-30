@@ -99,7 +99,7 @@ final class DomainServiceProvider extends ServiceProvider
 
     public function guardProduction(): void
     {
-        if (! $this->app->isProduction()) {
+        if (! $this->app->isProduction() || AppServiceProvider::runningBuildCommand()) {
             return;
         }
 

@@ -154,3 +154,17 @@ it('refuses to boot production with the fake domain intel driver or missing keys
         app()->detectEnvironment(fn (): string => 'testing');
     }
 });
+
+it('skips the domain guard for build-time console commands', function (): void {
+    app()->detectEnvironment(fn (): string => 'production');
+    config(['scampause.domain_intel_driver' => 'fake', 'scampause.fingerprint_key' => null, 'scampause.file_key' => null]);
+    $argv = $_SERVER['argv'];
+    $_SERVER['argv'] = ['artisan', 'package:discover', '--ansi'];
+
+    try {
+        expect(fn () => (new DomainServiceProvider(app()))->guardProduction())->not->toThrow(RuntimeException::class);
+    } finally {
+        $_SERVER['argv'] = $argv;
+        app()->detectEnvironment(fn (): string => 'testing');
+    }
+});
