@@ -2,4 +2,5 @@
 !private/
 !public/
 !psl/
+!psl/public_suffix_list.dat
 !.gitignore
