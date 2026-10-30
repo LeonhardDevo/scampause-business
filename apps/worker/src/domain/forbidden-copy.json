@@ -1,0 +1,13 @@
+{
+  "version": "2026.10.2",
+  "negation_window": 40,
+  "negations": ["not", "no", "never", "doesn't", "does not", "isn't", "не", "нет", "никогда"],
+  "phrases": {
+    "en": ["safe to pay", "payment is safe", "looks safe", "is legitimate", "verified as genuine", "guaranteed", "we guarantee", "100% protection", "fully protected"],
+    "ru": ["безопасно оплачивать", "платёж безопасен", "безопасный платёж", "можно смело платить", "гарантируем", "гарантированно", "100% защита", "полная защита"]
+  },
+  "context_required": {
+    "en": ["on hold", "stopped", "before it happens"],
+    "ru": ["на удержании", "остановлен"]
+  }
+}

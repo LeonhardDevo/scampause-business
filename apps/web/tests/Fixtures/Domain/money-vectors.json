@@ -1,0 +1,54 @@
+[
+    {
+        "locale": "en",
+        "currency": "USD",
+        "minor": 400000,
+        "formatted": "$4,000.00"
+    },
+    {
+        "locale": "ru",
+        "currency": "USD",
+        "minor": 400000,
+        "formatted": "4 000,00 $"
+    },
+    {
+        "locale": "ru",
+        "currency": "RUB",
+        "minor": 18500000,
+        "formatted": "185 000,00 ₽"
+    },
+    {
+        "locale": "en",
+        "currency": "EUR",
+        "minor": 1325000,
+        "formatted": "€13,250.00"
+    },
+    {
+        "locale": "ru",
+        "currency": "EUR",
+        "minor": 1325000,
+        "formatted": "13 250,00 €"
+    },
+    { "locale": "en", "currency": "JPY", "minor": 4000, "formatted": "¥4,000" },
+    {
+        "locale": "ru",
+        "currency": "JPY",
+        "minor": 4000,
+        "formatted": "4 000 ¥"
+    },
+    {
+        "locale": "en",
+        "currency": "RUB",
+        "minor": 249000,
+        "formatted": "RUB 2,490.00"
+    },
+    { "locale": "en", "currency": "GBP", "minor": 5, "formatted": "£0.05" },
+    { "locale": "ru", "currency": "USD", "minor": 0, "formatted": "0,00 $" },
+    {
+        "locale": "en",
+        "currency": "USD",
+        "minor": 123456789,
+        "formatted": "$1,234,567.89"
+    },
+    { "locale": "ru", "currency": "KZT", "minor": 100, "formatted": "1,00 ₸" }
+]

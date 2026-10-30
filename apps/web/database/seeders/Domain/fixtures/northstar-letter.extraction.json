@@ -1,0 +1,87 @@
+{
+    "status": "succeeded",
+    "text": "Northstar Equipment Leasing\n400 W Madison St, Chicago, IL 60606\n\nNOTICE OF UPDATED REMITTANCE DETAILS\nLease NEL-2023-118\nPlease update our records: effective this month our lease payments are collected by our new bank. The monthly lease installment of USD 3,960.00 for this month should be sent to the new account.\n\nBank: BMO Bank N.A.\nRouting: 322271627\nAccount: 9100458830\n\nGreg Holloway, Controller",
+    "fields": {
+        "vendor_name": {
+            "value": "Northstar Equipment Leasing",
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "emails": [],
+        "domains": [],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "bank_details_change",
+        "invoice_number": {
+            "value": "NEL-2023-118-10",
+            "confidence": 80,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+12",
+            "confidence": 80,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 396000,
+            "confidence": 94,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "USD",
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "us_ach",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "9100458830",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "routing_code": {
+                "value": "322271627",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Northstar Equipment Leasing",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "BMO Bank N.A.",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "US",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        }
+    }
+}

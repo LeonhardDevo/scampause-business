@@ -1,0 +1,92 @@
+{
+    "status": "succeeded",
+    "text": "Hi,\n\nI need you to process a wire to Harbor Logistics today. They have a new account for this shipment, details below. This is urgent and must go out right away.\n\nI'm in a meeting all afternoon, do not call me, reply by email only. Please keep this between us until the contract is announced, the board approved it.\n\nAmount: USD 9,800.00\nBank: Truist Bank\nRouting: 061000104\nAccount: 4471209876\nBeneficiary: Harbor Logistics Group\n\nThanks,\nAlex",
+    "fields": {
+        "vendor_name": {
+            "value": "Harbor Logistics Group",
+            "confidence": 80,
+            "source": "text",
+            "page": 1
+        },
+        "emails": ["alex.morgan.office@outlook.com"],
+        "domains": [],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "urgent_wire",
+        "amount_minor": {
+            "value": 980000,
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "USD",
+            "confidence": 92,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 70,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "us_ach",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "4471209876",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "routing_code": {
+                "value": "061000104",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Harbor Logistics Group",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Truist Bank",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "US",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "sender": {
+            "from_name": "Alex Morgan",
+            "from_email": "alex.morgan.office@outlook.com",
+            "reply_to": null,
+            "return_path": "alex.morgan.office@outlook.com",
+            "to": ["jordan@northwindroasters.com"],
+            "subject": "Urgent wire today",
+            "sent_at": "@time-25m",
+            "message_id": "alex.morgan.office.demo@outlook.com",
+            "auth": {
+                "spf": "pass",
+                "dkim": "pass",
+                "dmarc": "none"
+            },
+            "received_hops": 3,
+            "body_text": "Hi,\n\nI need you to process a wire to Harbor Logistics today. They have a new account for this shipment, details below. This is urgent and must go out right away.\n\nI'm in a meeting all afternoon, do not call me, reply by email only. Please keep this between us until the contract is announced, the board approved it.\n\nAmount: USD 9,800.00\nBank: Truist Bank\nRouting: 061000104\nAccount: 4471209876\nBeneficiary: Harbor Logistics Group\n\nThanks,\nAlex"
+        }
+    }
+}

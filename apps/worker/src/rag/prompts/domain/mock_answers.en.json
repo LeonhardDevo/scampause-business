@@ -1,0 +1,51 @@
+{
+  "policy": {
+    "approvals_needed": "For {amount} you need {approvers}{roles}. {verification}. Rule: «{rule}».",
+    "approvers": { "one": "{n} approver", "other": "{n} approvers" },
+    "roles": " (including: {roles})",
+    "verification_required": "A callback verification (Stop. Call. Confirm.) is required before approval",
+    "verification_not_required": "A callback verification is not required by your rules, but it is always allowed",
+    "deadline": "Approval deadline: {hours} h.",
+    "default_rule": "built-in default: one approver",
+    "notes": "Notes: {notes}."
+  },
+  "roles": { "owner": "owner", "admin": "admin", "approver": "approver", "bookkeeper": "bookkeeper", "member": "member", "auditor": "auditor" },
+  "vendor": {
+    "official_phone": "Official callback number for {vendor}: {name}{role} — {phone} (source: {source}). Call only this number, never a number from an invoice, e-mail or message.",
+    "no_contacts": "No verified official callback number is recorded for {vendor}. Ask an owner to add one from the signed contract before any callback.",
+    "bank_history": "Bank accounts of {vendor}: {accounts}.",
+    "account": "•••• {last4} ({bank}, {country}, {status}, from {from}{to})",
+    "account_to": " to {to}",
+    "account_verified": "; verified by {by} ({method})",
+    "blocked": "Blocked attempts: {attempts}.",
+    "blocked_item": "•••• {last4} ({country}, {date}, {reason}, {reference})",
+    "no_accounts": "No bank accounts are recorded for {vendor}.",
+    "not_found": "I could not find a vendor named «{query}» in the vendor master. Name the vendor exactly as in the vendor master.",
+    "choose": "Several vendors match «{query}»: {names}. Which one do you mean?",
+    "found": "Vendors found: {names}."
+  },
+  "request": {
+    "status": "{reference} ({title}): {status}. Risk: {risk} ({score}/100).",
+    "signals": "Top signals: {signals}.",
+    "verification": "Callback verification: {state}.",
+    "verification_states": { "required_satisfied": "required, recorded", "required_missing": "required, not recorded yet", "not_required": "not required" },
+    "approvals": "Approvals: {approvals}.",
+    "not_found": "Request {reference} was not found or you have no access to it."
+  },
+  "approvals": {
+    "pending": { "one": "{count} request is waiting for your approval: {items}.", "other": "{count} requests are waiting for your approval: {items}." },
+    "item": "{reference} ({amount}, {risk}, until {expires})",
+    "empty": "Nothing is waiting for your approval."
+  },
+  "approval": { "use_web": "Approvals, rejections, verifications and payment marks are made only in the case file in the web app. Open it there to decide." },
+  "rag": {
+    "procedure": "Procedure from «{title}» [{ref}]:",
+    "list": "From «{title}» [{ref}]:"
+  },
+  "guard": {
+    "disclaimer": "The score shows risk signals; it does not mean the payment is safe.",
+    "official_numbers_only": "Use only official callback numbers from the contract or vendor master.",
+    "number_hidden": "[number hidden]"
+  },
+  "actions": { "open_case": "Open the case file", "open_approvals": "Open approvals", "open_policies": "Open policies" }
+}

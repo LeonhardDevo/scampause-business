@@ -1,0 +1,8 @@
+{
+    "roles.owner": "Owner",
+    "roles.admin": "Admin",
+    "roles.member": "Member",
+    "roles.approver": "Approver",
+    "roles.bookkeeper": "Bookkeeper",
+    "roles.auditor": "Auditor"
+}

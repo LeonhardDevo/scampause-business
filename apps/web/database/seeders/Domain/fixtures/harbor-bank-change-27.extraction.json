@@ -1,0 +1,104 @@
+{
+    "status": "succeeded",
+    "text": "Dear customer,\n\nDue to an audit of our US account, please send all payments to our new bank details below immediately. Please update our records. Do not call our office, the phone line is being migrated, reply by email only.\n\nBank: Barclays Bank UK\nIBAN: GB82 BARC 2003 5544 3322 11\nAmount due: USD 12,750.00\n\nTom Becker\nAccounts Receivable, Harbor Logistics Group",
+    "fields": {
+        "vendor_name": {
+            "value": "Harbor Logistics Group",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "emails": ["accounts@harbor-lg.com"],
+        "domains": ["harbor-lg.com"],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "bank_details_change",
+        "invoice_number": {
+            "value": "HL-7402",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 80,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+2",
+            "confidence": 80,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 1275000,
+            "confidence": 92,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "USD",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "iban",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "GB82BARC20035544332211",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "bic": {
+                "value": "BARCGB22",
+                "confidence": 90,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Harbor Logistics Group",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Barclays Bank UK",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "GB",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "sender": {
+            "from_name": "Tom Becker",
+            "from_email": "accounts@harbor-lg.com",
+            "reply_to": null,
+            "return_path": "accounts@harbor-lg.com",
+            "to": ["ap@northwindroasters.com"],
+            "subject": "Updated bank details - action required",
+            "sent_at": "@time-25m",
+            "message_id": "accounts.demo@harbor-lg.com",
+            "auth": {
+                "spf": "none",
+                "dkim": "none",
+                "dmarc": "none"
+            },
+            "received_hops": 3,
+            "body_text": "Dear customer,\n\nDue to an audit of our US account, please send all payments to our new bank details below immediately. Please update our records. Do not call our office, the phone line is being migrated, reply by email only.\n\nBank: Barclays Bank UK\nIBAN: GB82 BARC 2003 5544 3322 11\nAmount due: USD 12,750.00\n\nTom Becker\nAccounts Receivable, Harbor Logistics Group"
+        }
+    }
+}

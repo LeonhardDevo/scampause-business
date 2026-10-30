@@ -1,0 +1,131 @@
+{
+    "status": "succeeded",
+    "text": "Harbor Logistics Group\n1 Harbor Way, Newark, NJ 07114\n\nINVOICE HL-7790\nFreight, container NWRU 4471223, monthly shipment\nTotal: USD 2,340.00\nPay by ACH: Valley National Bank, routing 031101279, account 5501206604\nOr scan the payment QR code below.",
+    "fields": {
+        "vendor_name": {
+            "value": "Harbor Logistics Group",
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "emails": [],
+        "domains": [],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [
+            {
+                "page": 1,
+                "format": "epc",
+                "fields": {
+                    "iban": "DE4437040044053201300099",
+                    "bic": "COBADEFFXXX",
+                    "name": "HLG Logistik Services",
+                    "amount": "USD2340.00"
+                }
+            }
+        ],
+        "kind_suggestion": "qr_payment",
+        "invoice_number": {
+            "value": "HL-7790",
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+15",
+            "confidence": 88,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 234000,
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "USD",
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "us_ach",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "5501206604",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "routing_code": {
+                "value": "031101279",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Harbor Logistics Group",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Valley National Bank",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "US",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "qr_payee": {
+            "scheme": {
+                "value": "iban",
+                "confidence": 99,
+                "source": "qr",
+                "page": 1
+            },
+            "account_number": {
+                "value": "DE4437040044053201300099",
+                "confidence": 99,
+                "source": "qr",
+                "page": 1
+            },
+            "bic": {
+                "value": "COBADEFFXXX",
+                "confidence": 99,
+                "source": "qr",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "HLG Logistik Services",
+                "confidence": 99,
+                "source": "qr",
+                "page": 1
+            },
+            "amount_minor": {
+                "value": 234000,
+                "confidence": 99,
+                "source": "qr",
+                "page": 1
+            },
+            "valid_checksum": true
+        }
+    }
+}

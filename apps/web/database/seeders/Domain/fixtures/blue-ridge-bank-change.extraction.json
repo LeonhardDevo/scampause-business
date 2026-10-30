@@ -1,0 +1,107 @@
+{
+    "status": "succeeded",
+    "text": "Hello,\n\nPlease note that we have new bank details effective immediately. Our previous account at JPMorgan Chase is under review and can no longer receive payments. Please update our records and send the payment for invoice BRP-88317 to the account below today, it is urgent as the invoice is due tomorrow.\n\nBeneficiary: Blue Ridge Packaging Company Inc\nBank: Baltic Payments UAB\nIBAN: LT09 3250 0247 2001 8839\n\nPlease don't call, I'm travelling this week and can't talk. Reply by email only.\n\nKaren Whitfield\nAR Manager, Blue Ridge Packaging Co.\n+1 828 555 0199",
+    "fields": {
+        "vendor_name": {
+            "value": "Blue Ridge Packaging Co.",
+            "confidence": 88,
+            "source": "text",
+            "page": 1
+        },
+        "emails": [
+            "billing@blueridge-pack.com",
+            "karen.whitfield.ar@gmail.com"
+        ],
+        "domains": ["blueridge-pack.com"],
+        "urls": [],
+        "phones_e164": ["+18285550199"],
+        "qr": [],
+        "kind_suggestion": "bank_details_change",
+        "invoice_number": {
+            "value": "BRP-88317",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+1",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 1840000,
+            "confidence": 94,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "USD",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "iban",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "LT093250024720018839",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "bic": {
+                "value": "REVOLT21",
+                "confidence": 90,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Blue Ridge Packaging Company Inc",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Baltic Payments UAB",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "LT",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "sender": {
+            "from_name": "Karen Whitfield",
+            "from_email": "billing@blueridge-pack.com",
+            "reply_to": "karen.whitfield.ar@gmail.com",
+            "return_path": "billing@blueridge-pack.com",
+            "to": ["ap@northwindroasters.com"],
+            "subject": "Urgent: new bank details for invoice BRP-88317",
+            "sent_at": "@time-25m",
+            "message_id": "billing.demo@blueridge-pack.com",
+            "auth": {
+                "spf": "softfail",
+                "dkim": "none",
+                "dmarc": "none"
+            },
+            "received_hops": 3,
+            "body_text": "Hello,\n\nPlease note that we have new bank details effective immediately. Our previous account at JPMorgan Chase is under review and can no longer receive payments. Please update our records and send the payment for invoice BRP-88317 to the account below today, it is urgent as the invoice is due tomorrow.\n\nBeneficiary: Blue Ridge Packaging Company Inc\nBank: Baltic Payments UAB\nIBAN: LT09 3250 0247 2001 8839\n\nPlease don't call, I'm travelling this week and can't talk. Reply by email only.\n\nKaren Whitfield\nAR Manager, Blue Ridge Packaging Co.\n+1 828 555 0199"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "status": "succeeded",
+    "text": "Hi,\n\nI changed my bank. Please update my direct deposit to the new account below before the next payroll run. It is urgent, I need it working by Friday.\n\nBank: Wells Fargo Bank\nRouting: 121000248\nAccount: 7700457310\n\nThanks,\nJordan Lee",
+    "fields": {
+        "vendor_name": {
+            "value": "Jordan Lee",
+            "confidence": 75,
+            "source": "text",
+            "page": 1
+        },
+        "emails": ["jordan.lee.payroll@gmail.com"],
+        "domains": [],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "payroll_change",
+        "payee": {
+            "scheme": {
+                "value": "us_ach",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "7700457310",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "routing_code": {
+                "value": "121000248",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Jordan Lee",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Wells Fargo Bank",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "US",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "sender": {
+            "from_name": "Jordan Lee",
+            "from_email": "jordan.lee.payroll@gmail.com",
+            "reply_to": null,
+            "return_path": "jordan.lee.payroll@gmail.com",
+            "to": ["payroll@northwindroasters.com"],
+            "subject": "Direct deposit change",
+            "sent_at": "@time-25m",
+            "message_id": "jordan.lee.payroll.demo@gmail.com",
+            "auth": {
+                "spf": "pass",
+                "dkim": "pass",
+                "dmarc": "none"
+            },
+            "received_hops": 3,
+            "body_text": "Hi,\n\nI changed my bank. Please update my direct deposit to the new account below before the next payroll run. It is urgent, I need it working by Friday.\n\nBank: Wells Fargo Bank\nRouting: 121000248\nAccount: 7700457310\n\nThanks,\nJordan Lee"
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "status": "succeeded",
+    "text": "Estimado cliente / Dear customer,\n\nPlease note our new bank details for all future invoices, effective immediately. Kindly send the payment for invoice AG-2026-0712 (EUR 21,400.00) today to:\n\nBank: Millennium BCP\nIBAN: PT33 0033 0000 4553 0819 4410 54\n\nLucia Ortega\nExport Accounts",
+    "fields": {
+        "vendor_name": {
+            "value": "Andes Green Coffee Importers S.L.",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "emails": ["cobros@andesgreen-coffee.com"],
+        "domains": ["andesgreen-coffee.com"],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "bank_details_change",
+        "invoice_number": {
+            "value": "AG-2026-0712",
+            "confidence": 88,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+1",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 2140000,
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "EUR",
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "iban",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "PT330033000045530819441054",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "bic": {
+                "value": "BCOMPTPL",
+                "confidence": 90,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Andes Green Coffee Importers SL",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Millennium BCP",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "PT",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "sender": {
+            "from_name": "Lucia Ortega",
+            "from_email": "cobros@andesgreen-coffee.com",
+            "reply_to": null,
+            "return_path": "cobros@andesgreen-coffee.com",
+            "to": ["ap@northwindroasters.com"],
+            "subject": "New bank details / Nuevos datos bancarios",
+            "sent_at": "@time-25m",
+            "message_id": "cobros.demo@andesgreen-coffee.com",
+            "auth": {
+                "spf": "none",
+                "dkim": "none",
+                "dmarc": "none"
+            },
+            "received_hops": 3,
+            "body_text": "Estimado cliente / Dear customer,\n\nPlease note our new bank details for all future invoices, effective immediately. Kindly send the payment for invoice AG-2026-0712 (EUR 21,400.00) today to:\n\nBank: Millennium BCP\nIBAN: PT33 0033 0000 4553 0819 4410 54\n\nLucia Ortega\nExport Accounts"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "roles.owner": "Владелец",
+    "roles.admin": "Администратор",
+    "roles.member": "Участник",
+    "roles.approver": "Согласующий",
+    "roles.bookkeeper": "Бухгалтер",
+    "roles.auditor": "Аудитор"
+}

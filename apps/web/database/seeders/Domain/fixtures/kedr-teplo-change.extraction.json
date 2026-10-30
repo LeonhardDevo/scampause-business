@@ -1,0 +1,116 @@
+{
+    "status": "succeeded",
+    "text": "Добрый день!\n\nСообщаем, что у нас изменились реквизиты. Просим срочно оплатить счёт № 512-Т на 96 400,00 руб. по новым реквизитам, старый счёт закрыт. Не звоните в офис, бухгалтерия на совещании, отвечайте только по почте.\n\nПолучатель: ООО «ТеплоСервис»\nБанк: АО «Альфа-Банк»\nБИК 044525593\nР/с 40702810202850004444\n\nГлавный бухгалтер ООО «ТеплоСервис»",
+    "fields": {
+        "vendor_name": {
+            "value": "ООО «ТеплоСервис»",
+            "confidence": 88,
+            "source": "text",
+            "page": 1
+        },
+        "emails": ["buh@teplo-servis.ru"],
+        "domains": ["teplo-servis.ru"],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "bank_details_change",
+        "vendor_tax_id": {
+            "value": "7714987650",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_number": {
+            "value": "512-Т",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 85,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+1",
+            "confidence": 80,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 9640000,
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "RUB",
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "ru_account",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "40702810202850004444",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "routing_code": {
+                "value": "044525593",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "ООО «ТеплоСервис»",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "АО «Альфа-Банк»",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "RU",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "payee_tax_id": {
+                "value": "7714987650",
+                "confidence": 90,
+                "source": "text",
+                "page": 1
+            }
+        },
+        "sender": {
+            "from_name": "Бухгалтерия ТеплоСервис",
+            "from_email": "buh@teplo-servis.ru",
+            "reply_to": null,
+            "return_path": "buh@teplo-servis.ru",
+            "to": ["buh@kedr-partners.ru"],
+            "subject": "Смена реквизитов, срочно",
+            "sent_at": "@time-25m",
+            "message_id": "buh.demo@teplo-servis.ru",
+            "auth": {
+                "spf": "none",
+                "dkim": "none",
+                "dmarc": "none"
+            },
+            "received_hops": 3,
+            "body_text": "Добрый день!\n\nСообщаем, что у нас изменились реквизиты. Просим срочно оплатить счёт № 512-Т на 96 400,00 руб. по новым реквизитам, старый счёт закрыт. Не звоните в офис, бухгалтерия на совещании, отвечайте только по почте.\n\nПолучатель: ООО «ТеплоСервис»\nБанк: АО «Альфа-Банк»\nБИК 044525593\nР/с 40702810202850004444\n\nГлавный бухгалтер ООО «ТеплоСервис»"
+        }
+    }
+}

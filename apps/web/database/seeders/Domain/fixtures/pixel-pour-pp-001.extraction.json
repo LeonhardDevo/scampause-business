@@ -1,0 +1,87 @@
+{
+    "status": "succeeded",
+    "text": "Pixel & Pour Design Studio\n214 Bedford Ave, Brooklyn, NY 11249\n\nINVOICE PP-001\nBill to: Northwind Coffee Roasters LLC\nPackaging redesign, seasonal label set (12 SKUs)\nTotal: USD 4,000.00\nDue in 14 days\n\nPay by ACH\nBank: Citibank, N.A.\nRouting: 021000089\nAccount: 7300112245",
+    "fields": {
+        "vendor_name": {
+            "value": "Pixel & Pour Design Studio",
+            "confidence": 93,
+            "source": "text",
+            "page": 1
+        },
+        "emails": [],
+        "domains": [],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "invoice",
+        "invoice_number": {
+            "value": "PP-001",
+            "confidence": 92,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date+0",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+14",
+            "confidence": 88,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 400000,
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "USD",
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "us_ach",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "7300112245",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "routing_code": {
+                "value": "021000089",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Pixel and Pour Design Studio LLC",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "Citibank, N.A.",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "US",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        }
+    }
+}

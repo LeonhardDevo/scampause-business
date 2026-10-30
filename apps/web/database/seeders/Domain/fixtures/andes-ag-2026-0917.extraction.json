@@ -1,0 +1,93 @@
+{
+    "status": "succeeded",
+    "text": "Andes Green Coffee Importers S.L.\nCIF B12345678\nCalle de Alcala 120, 28009 Madrid, Spain\n\nINVOICE AG-2026-0917\nBill to: Northwind Coffee Roasters LLC\nGreen coffee, Colombia Huila Excelso, 4 bags x 69 kg\nTotal due: EUR 13,250.00\nPayment terms: 30 days\n\nBank: CaixaBank\nIBAN: ES79 2100 0813 6101 2345 6789\nBIC: CAIXESBBXXX",
+    "fields": {
+        "vendor_name": {
+            "value": "Andes Green Coffee Importers S.L.",
+            "confidence": 92,
+            "source": "text",
+            "page": 1
+        },
+        "emails": [],
+        "domains": [],
+        "urls": [],
+        "phones_e164": [],
+        "qr": [],
+        "kind_suggestion": "invoice",
+        "vendor_tax_id": {
+            "value": "B12345678",
+            "confidence": 92,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_number": {
+            "value": "AG-2026-0917",
+            "confidence": 92,
+            "source": "text",
+            "page": 1
+        },
+        "invoice_date": {
+            "value": "@date-1",
+            "confidence": 90,
+            "source": "text",
+            "page": 1
+        },
+        "due_date": {
+            "value": "@date+29",
+            "confidence": 88,
+            "source": "text",
+            "page": 1
+        },
+        "amount_minor": {
+            "value": 1325000,
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "currency": {
+            "value": "EUR",
+            "confidence": 95,
+            "source": "text",
+            "page": 1
+        },
+        "payee": {
+            "scheme": {
+                "value": "iban",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "account_number": {
+                "value": "ES7921000813610123456789",
+                "confidence": 92,
+                "source": "text",
+                "page": 1
+            },
+            "valid_checksum": true,
+            "bic": {
+                "value": "CAIXESBBXXX",
+                "confidence": 90,
+                "source": "text",
+                "page": 1
+            },
+            "account_holder": {
+                "value": "Andes Green Coffee Importers S.L.",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_name": {
+                "value": "CaixaBank",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            },
+            "bank_country": {
+                "value": "ES",
+                "confidence": 85,
+                "source": "text",
+                "page": 1
+            }
+        }
+    }
+}

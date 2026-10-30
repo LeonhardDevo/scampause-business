@@ -1,0 +1,166 @@
+{
+  "version": "lex-2026.10.2",
+  "categories": {
+    "URGENCY_LANGUAGE": {
+      "points": 10,
+      "scope": "message_body",
+      "phrases": [
+        { "text": "urgent", "mode": "word", "locale": "en" },
+        { "text": "urgently", "mode": "word", "locale": "en" },
+        { "text": "asap", "mode": "word", "locale": "en" },
+        { "text": "immediately", "mode": "word", "locale": "en" },
+        { "text": "by end of day", "mode": "word", "locale": "en" },
+        { "text": "eod", "mode": "word", "locale": "en" },
+        { "text": "within the hour", "mode": "word", "locale": "en" },
+        { "text": "right away", "mode": "word", "locale": "en" },
+        { "text": "time-sensitive", "mode": "word", "locale": "en" },
+        { "text": "final notice", "mode": "word", "locale": "en" },
+        { "text": "pay today", "mode": "word", "locale": "en" },
+        { "text": "срочно", "mode": "word", "locale": "ru" },
+        { "text": "немедленно", "mode": "word", "locale": "ru" },
+        { "text": "сегодня же", "mode": "word", "locale": "ru" },
+        { "text": "до конца дня", "mode": "word", "locale": "ru" },
+        { "text": "в течение часа", "mode": "word", "locale": "ru" },
+        { "text": "безотлагательно", "mode": "word", "locale": "ru" },
+        { "text": "последнее напоминание", "mode": "word", "locale": "ru" },
+        { "text": "просрочен", "mode": "word", "locale": "ru" },
+        { "text": "крайний срок сегодня", "mode": "word", "locale": "ru" }
+      ]
+    },
+    "SECRECY_LANGUAGE": {
+      "points": 20,
+      "scope": "message_body",
+      "phrases": [
+        { "text": "keep this confidential", "mode": "word", "locale": "en" },
+        { "text": "strictly confidential request", "mode": "word", "locale": "en" },
+        { "text": "keep this between us", "mode": "word", "locale": "en" },
+        { "text": "don't tell", "mode": "word", "locale": "en" },
+        { "text": "do not discuss", "mode": "word", "locale": "en" },
+        { "text": "discreet", "mode": "word", "locale": "en" },
+        { "text": "private matter", "mode": "word", "locale": "en" },
+        { "text": "don't mention", "mode": "word", "locale": "en" },
+        { "text": "никому не говорите", "mode": "word", "locale": "ru" },
+        { "text": "между нами", "mode": "word", "locale": "ru" },
+        { "text": "не обсуждайте", "mode": "word", "locale": "ru" },
+        { "text": "не сообщайте", "mode": "word", "locale": "ru" },
+        { "text": "не упоминайте", "mode": "word", "locale": "ru" }
+      ]
+    },
+    "CALLBACK_DISCOURAGED": {
+      "points": 20,
+      "scope": "message_body",
+      "phrases": [
+        { "text": "do not call", "mode": "word", "locale": "en" },
+        { "text": "don't call", "mode": "word", "locale": "en" },
+        { "text": "can't talk", "mode": "word", "locale": "en" },
+        { "text": "in a meeting", "mode": "word", "locale": "en" },
+        { "text": "phone is not working", "mode": "word", "locale": "en" },
+        { "text": "reply by email only", "mode": "word", "locale": "en" },
+        { "text": "unreachable by phone", "mode": "word", "locale": "en" },
+        { "text": "не звоните", "mode": "word", "locale": "ru" },
+        { "text": "не могу говорить", "mode": "word", "locale": "ru" },
+        { "text": "на совещании", "mode": "word", "locale": "ru" },
+        { "text": "телефон не работает", "mode": "word", "locale": "ru" },
+        { "text": "отвечайте только по почте", "mode": "word", "locale": "ru" },
+        { "text": "только письменно", "mode": "word", "locale": "ru" }
+      ]
+    },
+    "AUTHORITY_PRESSURE": {
+      "points": 10,
+      "scope": "message_body",
+      "phrases": [
+        { "text": "the ceo asked", "mode": "word", "locale": "en" },
+        { "text": "the director asked", "mode": "word", "locale": "en" },
+        { "text": "per the owner", "mode": "word", "locale": "en" },
+        { "text": "board approved", "mode": "word", "locale": "en" },
+        { "text": "as instructed by", "mode": "word", "locale": "en" },
+        { "text": "директор поручил", "mode": "word", "locale": "ru" },
+        { "text": "генеральный директор просит", "mode": "word", "locale": "ru" },
+        { "text": "по поручению директора", "mode": "word", "locale": "ru" },
+        { "text": "руководитель просит", "mode": "word", "locale": "ru" },
+        { "text": "собственник просит", "mode": "word", "locale": "ru" }
+      ]
+    },
+    "CHANGE_REQUEST_LANGUAGE": {
+      "points": 15,
+      "scope": "subject_and_text",
+      "phrases": [
+        { "text": "new bank details", "mode": "word", "locale": "en" },
+        { "text": "updated bank details", "mode": "word", "locale": "en" },
+        { "text": "changed our bank", "mode": "word", "locale": "en" },
+        { "text": "new account", "mode": "word", "locale": "en" },
+        { "text": "updated remittance", "mode": "word", "locale": "en" },
+        { "text": "update our records", "mode": "word", "locale": "en" },
+        { "text": "banking information has changed", "mode": "word", "locale": "en" },
+        { "text": "new banking details", "mode": "word", "locale": "en" },
+        { "text": "новые реквизиты", "mode": "word", "locale": "ru" },
+        { "text": "изменились реквизиты", "mode": "word", "locale": "ru" },
+        { "text": "смена реквизитов", "mode": "word", "locale": "ru" },
+        { "text": "новый расчётный счёт", "mode": "word", "locale": "ru" },
+        { "text": "новый расчетный счет", "mode": "word", "locale": "ru" },
+        { "text": "новые реквизиты для оплаты", "mode": "word", "locale": "ru" },
+        { "text": "обновите реквизиты", "mode": "word", "locale": "ru" },
+        { "text": "сменили банк", "mode": "word", "locale": "ru" },
+        { "text": "изменение реквизитов", "mode": "word", "locale": "ru" }
+      ]
+    },
+    "UNUSUAL_PAYMENT_METHOD": {
+      "points": 15,
+      "scope": "subject_and_text",
+      "phrases": [
+        { "text": "gift card", "mode": "word", "locale": "en" },
+        { "text": "gift cards", "mode": "word", "locale": "en" },
+        { "text": "crypto…", "mode": "prefix", "locale": "en" },
+        { "text": "bitcoin", "mode": "word", "locale": "en" },
+        { "text": "usdt", "mode": "word", "locale": "en" },
+        { "text": "wire to personal account", "mode": "word", "locale": "en" },
+        { "text": "подарочн… карт…", "mode": "prefix", "locale": "ru" },
+        { "text": "криптовалют…", "mode": "prefix", "locale": "ru" },
+        { "text": "биткоин…", "mode": "prefix", "locale": "ru" },
+        { "text": "перевод на карту физлица", "mode": "word", "locale": "ru" }
+      ]
+    }
+  },
+  "kind": {
+    "payroll": [
+      { "text": "direct deposit", "mode": "prefix", "locale": "en" },
+      { "text": "payroll", "mode": "prefix", "locale": "en" },
+      { "text": "salary account", "mode": "prefix", "locale": "en" },
+      { "text": "зарплатн…", "mode": "prefix", "locale": "ru" }
+    ],
+    "change": [
+      { "text": "change", "mode": "prefix", "locale": "en" },
+      { "text": "update", "mode": "prefix", "locale": "en" },
+      { "text": "new", "mode": "prefix", "locale": "en" },
+      { "text": "измен…", "mode": "prefix", "locale": "ru" },
+      { "text": "нов…", "mode": "prefix", "locale": "ru" },
+      { "text": "смен…", "mode": "prefix", "locale": "ru" }
+    ],
+    "wire": [
+      { "text": "wire", "mode": "prefix", "locale": "en" },
+      { "text": "swift", "mode": "word", "locale": "en" },
+      { "text": "transfer", "mode": "prefix", "locale": "en" },
+      { "text": "перевод", "mode": "prefix", "locale": "ru" }
+    ]
+  },
+  "content_points_cap": 40,
+  "bank_change_signals": [
+    "BANK_DETAILS_CHANGED",
+    "PAYROLL_ACCOUNT_CHANGE",
+    "QR_PAYEE_MISMATCH",
+    "BANK_ACCOUNT_SEEN_OTHER_VENDOR",
+    "BANK_ACCOUNT_BLOCKLISTED",
+    "EMPLOYEE_DENIED_CHANGE"
+  ],
+  "web_only_signals": [
+    "BANK_DETAILS_CHANGED",
+    "PAYROLL_ACCOUNT_CHANGE",
+    "QR_PAYEE_MISMATCH",
+    "BANK_ACCOUNT_SEEN_OTHER_VENDOR",
+    "BANK_ACCOUNT_BLOCKLISTED",
+    "EMPLOYEE_DENIED_CHANGE",
+    "BANK_ACCOUNT_FIRST_USE",
+    "BANK_ACCOUNT_UNVERIFIED",
+    "BANK_HOLDER_MISMATCH"
+  ]
+}
