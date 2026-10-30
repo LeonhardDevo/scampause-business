@@ -33,6 +33,7 @@
         <env name="DB_URL" value="" force="true"/>
         <env name="MAIL_MAILER" value="array" force="true"/>
         <env name="QUEUE_CONNECTION" value="sync" force="true"/>
+        <env name="SCAMPAUSE_DEMO_SEED" value="false" force="true"/>
         <env name="SESSION_DRIVER" value="array" force="true"/>
         <env name="BILLING_DRIVER" value="fake" force="true"/>
         <env name="INTERNAL_API_SECRET" value="test-secret" force="true"/>
