@@ -17,8 +17,8 @@
         "@fontsource/ibm-plex-mono": "^5.3.0",
         "@inertiajs/vite": "^3.0.0",
         "@inertiajs/vue3": "^3.0.0",
-        "@laravel/passkeys": "^0.2.0",
-        "@lucide/vue": "^1.61.0",
+        "@laravel/passkeys": "^0.4.0",
+        "@lucide/vue": "^1.62.0",
         "@tanstack/vue-table": "^8.21.3",
         "@vueuse/core": "^12.8.2",
         "class-variance-authority": "^0.7.1",
@@ -30,13 +30,13 @@
         "motion-v": "^2.8.0",
         "qrcode": "^1.5.4",
         "reka-ui": "^2.11.0",
-        "simple-icons": "^16.35.0",
+        "simple-icons": "^16.36.0",
         "tailwind-merge": "^3.2.0",
         "tailwindcss": "^4.1.1",
         "tw-animate-css": "^1.2.5",
         "vue": "^3.5.13",
         "vue-echarts": "^8.3.2",
-        "vue-input-otp": "^0.3.2",
+        "vue-input-otp": "^0.4.0",
         "vue-sonner": "^2.0.0"
     },
     "devDependencies": {
@@ -52,8 +52,8 @@
         "vue-tsc": "^2.2.4"
     },
     "optionalDependencies": {
-        "@rollup/rollup-linux-x64-gnu": "4.9.5",
-        "@rollup/rollup-win32-x64-msvc": "4.9.5",
+        "@rollup/rollup-linux-x64-gnu": "4.65.1",
+        "@rollup/rollup-win32-x64-msvc": "4.65.1",
         "@tailwindcss/oxide-linux-x64-gnu": "^4.0.1",
         "@tailwindcss/oxide-win32-x64-msvc": "^4.0.1",
         "@voidzero-dev/vite-plus-linux-x64-gnu": "0.3.0",
